@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블루투스 연결"/>
+
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Connected"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/gpsDataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS Data: "
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="#EFEFEF"/>
+
+    <TextView
+        android:id="@+id/rtkReceiveDataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RTK Receive Data: "
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/rtkDataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RTK Data: Waiting for Connection"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+
+
+
+</LinearLayout>
